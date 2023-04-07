@@ -1,11 +1,28 @@
 {
-    "homepage": "http://sankar7264.github.io/pres1",
-    "scripts": {
-        "predeploy": "npm run build-storybook",
-        "deploy-storybook": "gh-pages -d storybook-static",
-        "build-storybook": "build-storybook"
-    },
-    "devDependencies": {
-        "gh-pages": "^5.0.0"
-    }
+
+        "scripts": {
+
+                "storybook": "start-storybook -p 9001 -c .storybook"
+
+        },
+
+        "devDependencies": {
+
+                "@storybook/react": "^7.0.2",
+
+                "babel-core": "^6.26.3",
+
+                "babel-loader": "^9.1.2"
+
+        },
+
+        "dependencies": {
+
+                "react": "^18.2.0",
+
+                "react-dom": "^18.2.0"
+
+        }
+
 }
+
